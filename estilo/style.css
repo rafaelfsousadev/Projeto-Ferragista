@@ -1,0 +1,48 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Vina+Sans&display=swap');
+
+:root{
+ --cor01: #26329E;
+ --cor02: #2D3FEB;
+ --cor03: #384AEB;
+ --cor04: #EBE721;
+ --cor05: #B3063F;
+ --fonte-padrão: Verdana, Geneva, Tahoma, sans-serif;
+ --fonte-titulos: 'Vina Sans', cursive;
+
+}
+*{
+    margin: 0px;
+    padding: 0px;
+}
+header{
+    background-color: var(--cor04);
+}
+header > h1{
+    color: var(--cor01);
+    font-family: var(--fonte-titulos);
+    font-size: 80px;
+    text-align: center;
+    font-variant: small-caps;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    
+}
+.Ç {
+    color: var(--cor05);
+    display: inline-block;
+}
+nav > a{
+    background-color: rgba(0, 0, 0, 0.445);
+    color: white;
+    text-decoration: none;
+    font-size: 25px;
+    border-radius: 8px;
+    padding: 5px;
+    font-family: var(--fonte-padrão);
+}
+nav > a:hover{
+    color: white;
+    background-color: black;
+}
