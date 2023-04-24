@@ -2,6 +2,10 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Vina+Sans&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Patua+One&display=swap');
+
 :root{
  --cor01: #26329E;
  --cor02: #2D3FEB;
@@ -9,7 +13,7 @@
  --cor04: #EBE721;
  --cor05: #B3063F;
  --fonte-padrão: Verdana, Geneva, Tahoma, sans-serif;
- --fonte-titulos: 'Vina Sans', cursive;
+ --fonte-titulos: 'Patua One', cursive;
 
 }
 *{
